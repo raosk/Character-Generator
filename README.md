@@ -16,4 +16,4 @@ The app provides the following functionality:
 * In the project directory, run: `npm start`. 
 * Then open [http://localhost:3000](http://localhost:3000) in a web browser. 
 
-(The server runs in [http://localhost:3001/character////](http://localhost:3001))
+(The server runs in [http://localhost:3001](http://localhost:3001))
