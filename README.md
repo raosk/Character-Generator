@@ -1,11 +1,11 @@
 # Character Generator 
-This is a simple React based web app for generating random characters for roleplaying games or any other need of fictional persons. 
+This is a simple React based web app for generating random characters for roleplaying games or for any other need of fictional persons. The characters consist of name, age, and profession. 
 
 The app provides the following functionality: 
 * User-fillable input fields for the character's first name, last name, age and profession. 
-* Fill in any random fields by retrieving random values from the node server. The idea is to keep the fields you like and randomize the rest.
-* Clear all the fields. 
-* Randomize all the fields, regardless of if they are empty or not. 
+* A button to fill in any random fields by retrieving random values from the node server. The idea is to keep the fields you like and randomize the rest.
+* A button to clear all the fields. 
+* A button to randomize all the fields, regardless of if they are empty or not. 
 
 ## Installation 
 * In the project directory, run: `npm install` to install the app dependencies. 
@@ -16,4 +16,4 @@ The app provides the following functionality:
 * In the project directory, run: `npm start`. 
 * Then open [http://localhost:3000](http://localhost:3000) in a web browser. 
 
-(The server runs in [http://localhost:3001](http://localhost:3001))
+(The server runs in [http://localhost:3001/character////](http://localhost:3001))

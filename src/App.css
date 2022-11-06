@@ -1,18 +1,35 @@
-* {
+body,
+html {
   background-color: rgb(227, 162, 41);
+}
+
+#App {
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 form {
   padding: 20px 40px 20px;
 }
 
+h1,
 button {
-  margin: 2px;
+  font-family: "Permanent Marker", cursive;
+}
+
+h1 {
+  color: rgb(77, 183, 41);
+  text-shadow: 2px 2px rgb(69, 103, 15), 0 0 #000000;
+  font-size: 40px;
+}
+
+button {
+  margin: 4px 5px;
   border: 5px;
   padding: 10px 20px;
-  border: 3px solid rgba(27, 31, 35, .15);
+  border: 3px solid rgba(27, 31, 35, 0.15);
   background-color: rgb(77, 183, 41);
-  border-radius: 12px;
+  border-radius: 16px;
   border-color: rgb(69, 103, 15);
   color: rgb(48, 7, 7);
   font-size: 18px;
@@ -20,10 +37,12 @@ button {
 }
 
 button:hover {
-  background-color: rgb(204, 178, 50);
+  background-color: rgb(8, 250, 56);
+  transform: scale(1.01);
 }
 
-input, output {
+input,
+output {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -32,7 +51,7 @@ input, output {
   border-radius: 8px;
   box-sizing: border-box;
   background-color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   font-weight: bold;
 }
@@ -46,8 +65,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Remove arrows/spinners from Firefox */
-input[type=number] {
+input[type="number"] {
   appearance: none;
   -moz-appearance: textfield;
-  
 }
